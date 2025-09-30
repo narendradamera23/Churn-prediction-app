@@ -25,7 +25,7 @@ def load_assets():
 imputer, scaler, model, explainer = load_assets()
 
 # Header
-st.title("Comprehensive Customer Churn Predictor")
+st.title("Customer Churn Predictor")
 st.write("Predict churn with high accuracy by providing the complete customer profile.")
 
 # Input Form
