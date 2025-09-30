@@ -132,6 +132,7 @@ if predict_button:
         height=300,
         margin=dict(l=10, r=10, t=40, b=10)
     )
-    st.plotly_chart(fig, use_container_width=True, config={'displayModeBar': False})
+    # This line makes the plot completely static
+    st.plotly_chart(fig, use_container_width=True, config={'staticPlot': True})
 
 
